@@ -4,9 +4,9 @@
 
 {% block content %}
 
-<h1>
+<section class="page-section" id="services">
   {{ user.get_full_name }} (@{{user.username}})
-</h1>
+</section>
 
 {% with profile=user.profile %}
   {% if profile %}
